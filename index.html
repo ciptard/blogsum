@@ -15,7 +15,7 @@
 
 	<script>
 		
-		var jqueryhack = $;
+		var jqueryhack = jQuery;
 		
 		jqueryhack.getJSON("https://www.googleapis.com/blogger/v3/blogs/6169819136321035666/posts?fetchImages=true&key=AIzaSyDz9VuctC0hrC0FUkmUaX2PfGSC63uHnPk",function(e){var t=e.items;for(var n in t){var r=t[n];var i;if(r.images){i=r.images[0].url}else{i="http:"+r.author.image.url}var s=r.url;var o=r.title;var u=jqueryhack.trim(jqueryhack(jqueryhack.parseHTML(r.content)).text()).substring(0,300).split(" ").slice(0,-1).join(" ")+"...";var a='<li class="list-group-item"><div class="media">				    <a class="pull-left" href="'+s+'">				      <div class="abc">				      <img class="media-object" height="64px" src="'+i+'">				      </div>				    </a>				    <div class="media-body">				      <h4 class="media-heading"><a href="'+s+'">'+o+"</a></h4>				      "+u+"				    </div>				 </div> </li>";jqueryhack("#post_list").append(a)}})
 
