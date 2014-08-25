@@ -4,7 +4,11 @@ Blogsum is a javascript widget that depends on jQuery to make an AJAX call to th
 Visit the [demo page](http://ejsuncy.github.io/blogsum/) for an example.
 
 ## Usage
-The script essentially places the widget where you include the script. Example usage:
+The script essentially places the widget where you include the script. To find your blog's id, follow the instructions [here](https://support.google.com/blogger/answer/42191?hl=en).
+
+If you're looking for the id of a blog that does not belong to you, it can usually be found in the blog's HTML source code.
+
+Example usage:
 
 ```
 <script id="blogsum_syndication" blogid="6169819136321035666" src="blogsum.min.js"></script>
@@ -61,4 +65,11 @@ I used Bootstrap to contain this widget along with other widgets. Bootstrap uses
 		<script id="blogsum_syndication" blogid="6169819136321035666" src="blogsum.min.js"></script>
 	</div>
 </div>
+```
+
+## Roadmap
+As I have time to maintain this, I'd like to add functionality for Wordpress blogs as well. Also, it would be cool to be able to include the blog URL in the script attributes instead of having to fish around for the blog id. An example would be:
+
+```
+<script id="blogsum_syndication" blogURL="http://blog.dbunked.org" src="blogsum.min.js"></script>
 ```
