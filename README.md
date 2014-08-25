@@ -1,5 +1,5 @@
 # Blogsum
-### Blogsum is a javascript widget that depends on jQuery to make an AJAX call to the Google Blogger API to retrieve blog post summaries and thumbnail images. It uses Bootstrap by Twitter to style the summary list as media objects. It is a function that can be dropped in an HTML page or linked to in a script HTML tag.
+Blogsum is a javascript widget that depends on jQuery to make an AJAX call to the Google Blogger API to retrieve blog post summaries and thumbnail images. It uses Bootstrap by Twitter to style the summary list as media objects. It is a function that can be dropped in an HTML page or linked to in a script HTML tag.
 
 ## Usage
 The script essentially places the widget where you include the script. Example usage:
