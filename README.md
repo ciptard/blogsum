@@ -67,6 +67,8 @@ I used Bootstrap to contain this widget along with other widgets. Bootstrap uses
 </div>
 ```
 
+Compare the [index.html](http://ejsuncy.github.io/blogsum) and [index2.html](http://ejsuncy.github.io/blogsum/index2.html) pages.
+
 ## Roadmap
 As I have time to maintain this, I'd like to add functionality for Wordpress blogs as well. Also, it would be cool to be able to include the blog URL in the script attributes instead of having to fish around for the blog id. An example would be:
 
